@@ -4,9 +4,9 @@
 
 ## What is it?
 
-Unity Editor serialization system doesn't allow one to serialized C# Dictionaries, although it is possible to create a list of custom key value pair objects. However, if one wants to serialize Dictionaries, it must be done in slightly roundabout way, luckily Unity documentation has an example how to do this, however - it doesn't show how to create a Custom Editor for diplaying Dictionary contents. 
+Unity Editor serialization system doesn't allow one to serialized C# Dictionaries, although it is possible to create a list of custom key value pair objects. However, if one wants to serialize Dictionaries, it must be done in slightly roundabout way. Luckily Unity documentation has an example how to do this, however - it doesn't show how to create a Custom Editor for diplaying Dictionary contents. 
 
-In this example it is possible to see one way how Dictionary data can be displayed in Unity Inspector. I've added a UI to list Dictionary key value pairs, and possiblity edit value, add new items, remove items and an option to clear the dictionary. Undo works for all of the operations, but it is a bit glitchy - if you press Undo, you have to deselect and select the object/asset where the list is located, otherwise changes don't get reflected in the UI.
+In this example it is possible to see one way how Dictionary data can be displayed in Unity Inspector. I've added a UI to list Dictionary key value pairs, and a possiblity to edit item value, add new items, remove items and an option to clear the dictionary. Undo works for all of the operations, but it is a bit glitchy - if you press Undo, you have to deselect and select the object/asset where the list is located, otherwise changes don't get reflected in the UI.
 
 # Classes
 
